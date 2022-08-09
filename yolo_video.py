@@ -3,7 +3,6 @@ import argparse
 import cv2
 
 # object tracking
-import 
 
 threesixty_one = '192.168.0.12-798248343'  #  360 cam #1
 threesixty_two = '192.168.0.11-209404134'  #  360 cam #2
