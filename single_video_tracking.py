@@ -3,7 +3,7 @@ import argparse
 import cv2
 
 tracker_types = ['BOOSTING', 'MIL','KCF', 'TLD', 'MEDIANFLOW', 'GOTURN', 'MOSSE', 'CSRT']
-tracker_type = tracker_types[5]
+tracker_type = tracker_types[2]
 tracker = cv2.TrackerMIL_create()
 # object tracking
 
@@ -63,7 +63,7 @@ while True:
     
     output.write(frame)
     
-    k = cv2.waitKey(1) & 0xff
+    k = cv2.waitKey(1) & 0xff # 1
     
     if k == 27 : break
         

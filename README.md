@@ -4,6 +4,14 @@
 ---
 Hello! In this tutorial I will show how to implement simple object detection using Python and OpenCV.
 
+## What is a pixel?
+
+All images consist of pixels which are the raw building blocks of images. Images are made of pixels in a grid. A 640 x 480 image has 640 columns (the width) and 480 rows (the height). There are 640 * 480 = 307200 pixels in an image with those dimensions.
+
+Each pixel in a grayscale image has a value representing the shade of gray. In OpenCV, there are 256 shades of gray — from 0 to 255. So a grayscale image would have a grayscale value associated with each pixel.
+
+Pixels in a color image have additional information. There are several color spaces that you’ll soon become familiar with as you learn about image processing. For simplicity let’s only consider the RGB color space.
+
 ## Setting up YOLO with Darknet
 ---
 At first we need to have the model setup in the correct way. To do this we need to explain what Yolo is.

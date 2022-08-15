@@ -20,6 +20,11 @@ Multiple object tracking is the task of tracking more than one object in the vid
 
 Since a video may have a large number of objects, or the video itself may be unclear, and there can be ambiguity in direction of the object’s motion Multiple Object Tracking is a difficult task and it thus relies on single frame object detection.
 
+## What makes Object Tracking difficult
+
+
+### 
+
 ## Libraries
 
 ### Installing OpenCV
@@ -105,3 +110,4 @@ When going though the other algoritme I will only mention those and not implemen
 * https://docs.opencv.org/4.x/d2/d0a/tutorial_introduction_to_tracker.html
 * https://blog.roboflow.com/object-tracking-how-to/
 * https://blog.roboflow.com/zero-shot-object-tracking/
+* https://viso.ai/deep-learning/object-tracking/
